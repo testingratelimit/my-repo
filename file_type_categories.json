@@ -1,0 +1,155 @@
+[{
+  "id": 1,
+  "category_name": "Word Processing",
+  "is_builtin": true,
+  "extensions": ["adoc", "adoc.txt", "asciidoc", "aw", "dc", "doc", "docm", "docx", "dot", "dotm", "dotx", "fff", "hwp", "ip", "jtd", "lwp", "mif", "mw", "mwk", "mwp", "odt", "oo3", "opml", "oth", "otm", "ott", "pages", "rft", "rtf", "rtx", "sam", "sdw", "sgl", "stw", "sxg", "sxw", "w40", "wcm", "wdb", "wf", "wks", "wop", "wp", "wp4", "wpd", "wps", "wri", "xps", "xy4"],
+  "fname_patterns": [],
+  "scannable": true
+}, {
+  "id": 2,
+  "category_name": "Spreadsheet",
+  "is_builtin": true,
+  "extensions": ["123", "as", "cal", "dif", "fods", "numbers", "ods", "ots", "qpw", "s30,s40", "sdc", "ssf", "sxc", "wb1", "wb2", "wb3", "wk1", "wk2", "wk3", "wk4", "wkq", "wks", "wq1", "wq2", "xla", "xlam", "xlc", "xld", "xll", "xlm", "xls", "xlsb", "xlsm", "xlsx", "xlt", "xltm", "xltx", "xlw", "xsl", "xslt"],
+  "fname_patterns": [],
+  "scannable": true
+}, {
+  "id": 3,
+  "category_name": "Presentation",
+  "is_builtin": true,
+  "extensions": ["fodp", "key", "keynote", "odp", "otp", "pot", "potm", "potx", "ppa", "ppam", "pps", "ppsm", "ppsx", "ppt", "pptm", "pptx", "ppz", "pre", "prs", "prz", "sda", "sdd", "sldm", "sldx", "sti", "sxd", "sxi", "thmx", "vor", "xfd", "xfdl"],
+  "fname_patterns": [],
+  "scannable": true
+}, {
+  "id": 4,
+  "category_name": "Desktop Publishing",
+  "is_builtin": true,
+  "extensions": ["fdf", "pdf", "pub", "xdp", "xfdf"],
+  "fname_patterns": [],
+  "scannable": true
+}, {
+  "id": 5,
+  "category_name": "Text Table",
+  "is_builtin": true,
+  "extensions":["csv", "tsv"],
+  "fname_patterns": [],
+  "scannable": true
+}, {
+  "id": 6,
+  "category_name": "Machine Readable",
+  "is_builtin": true,
+  "extensions": ["avro", "dtd", "json", "parquet", "xfdl", "xml", "xsd", "xsl"],
+  "fname_patterns": [],
+  "scannable": true
+}, {
+  "id": 7,
+  "category_name": "Plain Text",
+  "is_builtin": true,
+  "extensions": ["text", "txt"],
+  "fname_patterns": [],
+  "scannable": true
+}, {
+  "id": 8,
+  "category_name": "Database File",
+  "is_builtin": true,
+  "extensions": ["accdb", "accdt", "dbf", "edb", "mdb", "odb"],
+  "fname_patterns": [],
+  "scannable": true
+}, {
+  "id": 9,
+  "category_name": "Archive",
+  "is_builtin": true,
+  "extensions": ["*-gz", ".cab", "7z", "ad1", "ar", "arj", "b1", "bkf", "bz2", "cab", "dmg", "e01", "gtar", "gz", "hqx", "iso", "l01", "lha", "lx01", "lzh", "rar", "rar5", "tar", "tgz", "uue", "xz", "z", "zip"],
+  "fname_patterns": [],
+  "scannable": true
+}, {
+  "id": 10,
+  "category_name": "Configuration",
+  "is_builtin": true,
+  "extensions": ["*rc", "cfg", "conf", "config", "hocon", "ini", "plist", "prf", "properties", "sys", "toml", "xconf", "yml", "yaml"],
+  "fname_patterns": ["package.json"],
+  "scannable": true
+}, {
+  "id": 11,
+  "category_name": "Binary",
+  "is_builtin": true,
+  "extensions": ["acfm", "afm", "amfm", "bdf", "bin", "bpk", "com", "cpt", "dat", "dep", "deploy", "dex", "dist", "distz", "dll", "dms", "dump", "eep", "elc", "elf", "exe", "gsf", "hex", "hqx", "lha", "lrf", "lzh", "map", "msi", "msp", "mst", "nexe", "o", "obj", "otf", "out", "pack", "pcf", "pfa", "pfb", "pfm", "pkg", "psf", "snf", "so", "srec", "swp", "ttc", "ttf"],
+  "fname_patterns": [],
+  "scannable": false
+}, {
+  "id": 12,
+  "category_name": "Audio",
+  "is_builtin": true,
+  "extensions": ["aac", "ac3", "adp", "aif", "aifc", "aiff", "amr", "asnd", "au", "caf", "dts", "dtshd", "ecelp4800", "ecelp7470", "ecelp9600", "eol", "flac", "kar", "lvp", "m2a", "m3a", "m3u", "m4a", "m4b", "mid", "midi", "mka", "mod", "mp2", "mp2a", "mp3", "mp4a", "mpga", "oga", "ogg", "opus", "pya", "ra", "ram", "rmi", "rmp", "snd", "spx", "wav", "wax", "wma"],
+  "fname_patterns": [],
+  "scannable": false
+}, {
+  "id": 13,
+  "category_name": "Video",
+  "is_builtin": true,
+  "extensions": ["3g2", "3gp", "asf", "avi", "drc", "f4v", "flc", "fli", "flv", "fvt", "h261", "h263", "h264", "jng", "jpgv", "m1v", "m2v", "m4u", "m4v", "mj2", "mjp2", "mkv", "mng", "mov", "movie", "mp4", "mp4v", "mpe", "mpeg", "mpg", "mpg4", "mxu", "ogm", "ogv", "pyv", "qt", "viv", "webm", "wm", "wmv", "wmx", "wvx"],
+  "fname_patterns": [],
+  "scannable": false
+}, {
+  "id": 14,
+  "category_name": "Image",
+  "is_builtin": true,
+  "extensions": ["3fr", "arw", "bay", "bmp", "bpg", "btif", "cgm", "cmx", "cr2", "crw", "dcs", "dcx", "dib", "djv", "djvu", "dng", "dpx", "drf", "dwg", "dxb", "dxf", "emf", "emz", "erf", "exr", "fbs", "fff", "fh", "fh10", "fh11", "fh12", "fh4", "fh40", "fh5", "fh50", "fh7", "fh8", "fh9", "fhc", "fpx", "fst", "ft10", "ft11", "ft12", "ft7", "ft8", "ft9", "g3", "gif", "icb", "icns", "ico", "ief", "iiq", "j2c", "jb2", "jbig2", "jfi", "jfif", "jif", "jp2", "jpe", "jpeg", "jpf", "jpg", "jpgm", "jpm", "k25", "kdc", "mdi", "mef", "mmr", "mos", "mrw", "nef", "nitf", "npx", "nrw", "ntf", "orf", "pbm", "pct", "pcx", "pef", "pgm", "pic", "pict", "png", "pnm", "ppj", "ppm", "psd", "ptx", "pxn", "r3d", "raf", "ras", "raw", "rgb", "rlc", "rw2", "rwz", "sr2", "srf", "svg", "svgz", "tga", "tif", "tiff", "vda", "wbmp", "webp", "wmf", "x3f", "xbm", "xcf", "xif", "xiff" , "xpm", "xwd"],
+  "fname_patterns": [],
+  "scannable": true
+}, {
+  "id": 15,
+  "category_name": "Mail",
+  "is_builtin": true,
+  "extensions": ["dbx", "eml", "emlx", "mbx", "msg", "mso", "olm", "onm", "ost", "pst", "rpmsg", "vcf", "wab"],
+  "fname_patterns": [],
+  "scannable": true
+}, {
+  "id": 16,
+  "category_name": "Source Code",
+  "is_builtin": true,
+  "extensions": ["4th", "ad", "ad.txt", "ada", "adb", "ads", "aj", "applescript", "as", "asm", "bas", "bat", "c", "c++", "cbl", "cc", "cfc", "cfm", "cfml", "cl", "clj", "cls", "cmd", "cob", "coffee", "cpp", "cs", "css", "cxx", "d", "diff", "dpr", "e", "el", "erl", "f", "f77", "f90", "for", "frm", "go", "groovy", "h", "h++", "haml", "hh", "hp", "hpp", "hs", "hx", "hxx", "i3", "ig", "java", "jl", "js", "l", "less", "lhs", "lisp", "lsp", "lua", "m", "m3", "mg", "ml", "mli", "ocaml", "p", "pas", "patch", "pp", "prj", "pro", "r", "rb", "rest", "restx", "rexx", "rst", "s", "scala", "scm", "st", "v", "vb", "vbs", "vhd", "vhdl", "xq", "xquery", "y", "sql"],
+  "fname_patterns": ["ModelIndex.xml", "ExportedFiles.xml"],
+  "scannable": true
+}, {
+  "id": 17,
+  "category_name": "Crypto Keys & Certificates",
+  "is_builtin": true,
+  "extensions": ["cer", "crl", "crt", "der", "p12", "p7b", "p7r", "pem", "pkipath", "rnd", "sig", "spc", "ssleay"],
+  "fname_patterns": [],
+  "scannable": true
+}, {
+  "id": 18,
+  "category_name": "Temporary and Hidden Files",
+  "is_builtin": true,
+  "extensions": ["temp", "tmp"],
+  "fname_patterns": ["temp.*", "temp-*", "temp_*", "tmp.*", "tmp-*", "tmp_*", "erase*", ".*", "~*", "*~"],
+  "scannable": true
+}, {
+  "id": 19,
+  "category_name": "Rarer File Types",
+  "is_builtin": true,
+  "extensions": ["3dml", "^owl$", "^rdf$", "a", "aab", "aam", "aas", "abw", "acc", "ace", "acu", "acutc", "aep", "aet", "afp", "ai", "air", "al", "ami", "anpa", "apk", "application", "apr", "arc", "asc", "asice", "asics", "aso", "asp", "aspx", "asx", "atc", "atom", "atomcat", "atomsvc", "atx", "awk", "axx", "azf", "azs", "azw", "bash", "bcpio", "bdm", "bh2", "bib", "bibtex", "bmi", "book", "box", "boz", "bpm", "br", "brotli", "bz", "c4d", "c4f", "c4g", "c4p", "c4u", "cap", "car", "cat", "cbor", "cct", "ccxml", "cdbcmsg", "cdf", "cdkey", "cdr", "cdx", "cdxml", "cdy", "cgi", "chat", "chm", "chrt", "cif", "cii", "cil", "cla", "class", "clkk", "clkp", "clkt", "clkw", "clkx", "clp", "cmc", "cmdf", "cml", "cmp", "cod", "cpio", "crd", "crx", "csh", "csml", "csp", "cst", "cu", "curl", "cwk", "cww", "cxt", "daf", "dataless", "davmount", "dbase", "dbase3", "dcr", "dcurl", "dd2", "ddd", "deb", "dfac", "dir", "dis", "dita", "ditamap", "ditaval", "dmp", "dna", "do", "dp", "dpg", "dsc", "dta", "dtb", "dvi", "dwf", "dwfx", "dxp", "dxr", "ear", "ecma", "edm", "edx", "efif", "ei6", "emma", "enr", "enw", "eot", "eps", "epsf", "epsi", "epub", "es3", "esf", "et3", "etx", "exp", "ext", "ez", "ez2", "ez3", "fb2", "fe_launch", "fg5", "fgd", "fig", "fit", "fits", "flo", "flw", "flx", "fly", "fm", "fnc", "fo", "fp7", "frame", "fsc", "ftc", "fti", "fts", "fzs", "gac", "gdl", "geo", "gex", "ggb", "ggt", "ghf", "gim", "gmx", "gnucash", "gnumakefile", "gnumeric", "gph", "gqf", "gqs", "gram", "grb", "grb1", "grb2", "gre", "grv", "grxml", "gtm", "gtw", "gv", "h5", "hbci", "hdf", "hdr", "he5", "hfa", "hlp", "hpgl", "hpid", "hps", "htke", "hvd", "hvp", "hvs", "ibooks", "icc", "ice", "icm", "ics", "idl", "ifb", "ifm", "iges", "igl", "igs", "igx", "iif", "imp", "ims", "indd", "inx", "ipa", "ipk", "irm", "irp", "iso19139", "itk", "itp", "ivp", "ivu", "jad", "jam", "jar", "jisp", "jlt", "jnilib", "jnlp", "joda", "jsp", "karbon", "kfo", "kia", "kil", "kml", "kmz", "kne", "knp", "kon", "kpr", "kpt", "ksp", "ktr", "ktz", "kwd", "kwt", "latex", "lbd", "lbe", "les", "link66", "list3820", "listafp", "log", "lostxml", "lrm", "ltf", "lz", "lz4", "lzma", "m13", "m14", "ma", "mag", "makefile", "maker", "man", "mat", "mathml", "mb", "mbk", "mbox", "mc1", "mcd", "mcurl", "me", "mesh", "mfm", "mgz", "mlp", "mmap", "mmas", "mmat", "mmd", "mmf", "mmmp", "mmp", "mmpt", "mny", "mobi", "mp4s", "mpc", "mpkg", "mpm", "mpn", "mpp", "mpt", "mpx", "mpy", "mqy", "mrc", "ms", "mscml", "mseed", "mseq", "msf", "msh", "msl", "msty", "mts", "mus", "musicxml", "mvb", "mwf", "mxf", "mxl", "mxml", "mxs", "myd", "myi", "n-gage", "nar", "nb", "nc", "ncx", "ngdat", "nlu", "nml", "nnd", "nns", "nnw", "nroff", "nsf", "oa2", "oa3", "oas", "obd", "oda", "odc", "odf", "odft", "odg", "odi", "ogx", "one", "onepkg", "onetmp", "onetoc", "onetoc2", "opf", "oprc", "org", "osf", "osfpvg", "otc", "otg", "oti", "owl", "oxps", "oxt", "p10", "p7c", "p7m", "p7s", "pbd", "pcap", "pcl", "pclxl", "pcurl", "pdb", "perl", "pfr", "pfx", "pgn", "pgp", "php", "php3", "php4", "pki", "pl", "plb", "plc", "plf", "pls", "pm", "pml", "portpkg", "ppd", "pqa", "prc", "prt", "ps", "psb", "ptid", "pvb", "pwn", "py", "qam", "qbo", "qfx", "qps", "qwd", "qwt", "qxb", "qxd", "qxl", "qxt", "rcprofile", "rdf", "rdz", "rep", "res", "rif", "rl", "rld", "rm", "rms", "rnc", "roff", "rpm", "rpss", "rpst", "rq", "rs", "rsd", "rss", "s7m", "sa7", "saf", "sas", "sas7bacs", "sas7baud", "sas7bbak", "sas7bcat", "sas7bdat", "sas7bdmd", "sas7bfdb", "sas7bitm", "sas7bmdb", "sas7bndx", "sas7bpgm", "sas7bput", "sas7butl", "sas7bvew", "sbml", "sc", "sc7", "scd", "scq", "scs", "scurl", "sd2", "sd7", "sdkd", "sdkm", "sdp", "sed", "see", "seed", "sema", "semd", "semf", "ser", "setpay", "setreg", "sf7", "sfd-hdstx", "sfdu", "sfs", "sgm", "sgml", "sh", "shar", "shf", "shp", "shw", "si7", "silo", "sis", "sisx", "sit", "sitx", "skd", "skm", "skp", "skt", "sldasm", "slddrw", "sldprt", "slt", "sm7", "smf", "smi", "smil", "sml", "sp7", "spf", "spl", "spot", "spp", "spq", "sr7", "src", "srl", "srx", "ss7", "sse", "ssml", "st7", "stc", "std", "stf", "stk", "stl", "str", "stx", "su7", "sus", "susp", "sv4cpio", "sv4crc", "sv7", "svd", "swa", "swf", "swi", "sxm", "sz", "t", "tao", "tbz", "tbz2", "tcap", "tcl", "tcsh", "teacher", "tex", "texi", "texinfo", "tfm", "tk", "tmo", "toast", "torrent", "tpl", "tpt", "tr", "tra", "trm", "tsd", "twd", "twds", "txd", "txf", "u32", "uc2", "udeb", "ufd", "ufdl", "umj", "unityweb", "uoml", "uri", "uris", "urls", "ustar", "utz", "uu", "vcd", "vcg", "vcs", "vcx", "vis", "vmdk", "vox", "vrml", "vsf", "vsw", "vtt", "vtu", "vxml", "w3d", "w60", "wad", "war", "warc", "wbs", "wbxml", "webarchive", "wmd", "wml", "wmlc", "wmls", "wmlsc", "wmz", "wp5", "wp6", "wp61", "wpl", "wpt", "wqd", "wrl", "wsdl", "wspolicy", "wtb", "x32", "x3d", "xap", "xar", "xbap", "xbd", "xdm", "xdw", "xenc", "xer", "xht", "xhvml", "xlr", "xmind", "xmp", "xo", "xop", "xpi", "xport", "xpr", "xpt", "xpw", "xpx", "xslfo", "xsm", "xspf", "xul", "xvm", "xvml", "xyz", "zaz", "zir", "zirz", "zmm", "zoo", "zstd","uos"],
+  "fname_patterns": [],
+  "scannable": true
+}, {
+  "id": 20,
+  "category_name": "Computer-Aided Design",
+  "is_builtin": true,
+  "extensions": ["cat", "dwg", "dxf", "vsd", "vsdm", "vsdx", "vss", "vssm", "vssx", "vst", "vstm", "vstx"],
+  "fname_patterns": [],
+  "scannable": true
+}, {
+  "id": 21,
+  "category_name": "Medical",
+  "is_builtin": true,
+  "extensions": ["dicom", "hl7"],
+  "fname_patterns": [],
+  "scannable": true
+}, {
+  "id": 22,
+  "category_name": "Markup Text",
+  "is_builtin": true,
+  "extensions": ["htm", "html", "ihtml", "markdown", "md", "mdtext", "mg", "mht", "mhtm", "mhtml", "mkd", "xhtm", "xhtml", "xhtml2"],
+  "fname_patterns": [],
+  "scannable": true
+}]
